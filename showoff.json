@@ -1,1 +1,7 @@
-{ "name": "ReSharper Driven Development", "sections": [ {"section":"one"} ]}
+{ "name": "ReSharper Driven Development",
+  "sections": [
+    {"section":"intro"},
+    {"section":"navigation"},
+    {"section":"templates"}
+  ]
+}

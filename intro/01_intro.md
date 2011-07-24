@@ -1,0 +1,2 @@
+!SLIDE 
+# ReSharper Driven Development #
