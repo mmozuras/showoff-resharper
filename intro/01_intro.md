@@ -1,2 +1,2 @@
-!SLIDE 
-# ReSharper Driven Development #
+!SLIDE
+# ReSharper Tips & Tricks #
