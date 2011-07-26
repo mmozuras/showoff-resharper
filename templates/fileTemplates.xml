@@ -1,0 +1,17 @@
+<TemplatesExport family="File Templates">
+  <Template uid="90978f30-7a66-4685-a858-2de3d81cb549" shortcut="" description="TestFixture" text="using System;&#xD;&#xA;using System.Collections.Generic;&#xD;&#xA;using System.Linq;&#xD;&#xA;using Moq;&#xD;&#xA;using NUnit.Framework;&#xD;&#xA;&#xD;&#xA;namespace $NAMESPACE$&#xD;&#xA;{&#xD;&#xA;    [TestFixture]&#xD;&#xA;    public class $NAME$&#xD;&#xA;    {&#xD;&#xA;		$END$&#xD;&#xA;	}&#xD;&#xA;}" reformat="True" shortenQualifiedReferences="True">
+    <Scopes>
+      <Scope type="InCSharpProjectFile" />
+    </Scopes>
+    <Categories />
+    <Variables>
+      <Variable name="NAMESPACE" expression="fileDefaultNamespace()" initialRange="-1" />
+      <Variable name="NAME" expression="getFileNameWithoutExtension()" initialRange="-1" />
+    </Variables>
+    <CustomProperties>
+      <Property key="FileName" value="Test" />
+      <Property key="Extension" value="cs" />
+      <Property key="ValidateFileName" value="True" />
+    </CustomProperties>
+  </Template>
+</TemplatesExport>
