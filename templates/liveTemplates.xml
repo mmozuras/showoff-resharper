@@ -1,0 +1,312 @@
+<TemplatesExport family="Live Templates">
+  <Template uid="456037a2-b677-4e64-a135-8dcb3127a975" shortcut="act" description="Act comment for test" text="// act&#xD;&#xA;$END$" reformat="True" shortenQualifiedReferences="False">
+    <Scopes>
+      <Scope type="InCSharpStatement" minimumLanguageVersion="2.0" />
+    </Scopes>
+    <Categories />
+    <Variables />
+    <CustomProperties />
+  </Template>
+  <Template uid="d8b998c9-9fec-490b-9d53-020e6dec654a" shortcut="ae" description="Assert.AreEqual" text="Assert.AreEqual($EXPECTED$,$ACTUAL$);$END$" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Expression" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="EXPECTED" expression="" initialRange="0" />
+      <Variable name="ACTUAL" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="3691bb2d-6cc0-4411-a498-06bbeb1e5f67" shortcut="af" description="Assert.IsFalse" text="Assert.IsFalse($CONDITION$);$END$" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Expression" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="CONDITION" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="6e5b154e-650a-4f8b-8d32-ec2cfc709909" shortcut="ai" description="Assert.IsInstanceOfType" text="Assert.IsInstanceOf&lt;$EXPECTED$&gt;($ACTUAL$);$END$" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Expression" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="EXPECTED" expression="guessExpectedType()" initialRange="0" />
+      <Variable name="ACTUAL" expression="complete()" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="c4c7d950-b6a6-4a46-b83b-718903a71c31" shortcut="an" description="Assert.IsNull" text="Assert.IsNull($OBJECT$);$END$" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Expression" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="OBJECT" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="6935edd8-b498-41d7-a494-a56e4c685197" shortcut="ann" description="Assert.IsNotNull" text="Assert.IsNotNull($OBJECT$);$END$" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Expression" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="OBJECT" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="117bd471-100e-4999-b20e-bbd45265b13e" shortcut="arr" description="Arrange comment for test" text="// arrange&#xD;&#xA;$END$" reformat="True" shortenQualifiedReferences="False">
+    <Scopes>
+      <Scope type="InCSharpStatement" minimumLanguageVersion="2.0" />
+    </Scopes>
+    <Categories />
+    <Variables />
+    <CustomProperties />
+  </Template>
+  <Template uid="3b024e3b-ac38-49ea-9e0a-11ad3839373f" shortcut="as" description="Assert.AreSame" text="Assert.AreSame($EXPECTED$,$ACTUAL$);$END$" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Expression" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="EXPECTED" expression="" initialRange="0" />
+      <Variable name="ACTUAL" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="78de251f-17c4-4055-a959-9ddd751963d0" shortcut="ass" description="Assert comment for test" text="// assert&#xD;&#xA;$END$" reformat="True" shortenQualifiedReferences="False">
+    <Scopes>
+      <Scope type="InCSharpStatement" minimumLanguageVersion="2.0" />
+    </Scopes>
+    <Categories />
+    <Variables />
+    <CustomProperties />
+  </Template>
+  <Template uid="2d681748-f392-4f5d-8831-cb6768eb4a33" shortcut="at" description="Assert.IsTrue" text="Assert.IsTrue($CONDITION$);$END$" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Expression" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="CONDITION" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="4c9fd940-f623-450b-8457-9c4317c14e75" shortcut="eea" description="ExpectedException Attribute" text="[ExpectedException(typeof($EXCEPTION_TYPE$))]$END$" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="TypeMember" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="EXCEPTION_TYPE" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="3ddb528f-40b3-4d0e-af29-2c0091ab983c" shortcut="fsu" description="Fixture Setup" text="[TestFixtureSetUp]&#xD;&#xA;public void FixtureSetUp()&#xD;&#xA;{&#xD;&#xA;   $END$&#xD;&#xA;}" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="TypeMember" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables />
+    <CustomProperties />
+  </Template>
+  <Template uid="48b8dbee-c42c-4e4c-a7f1-4981b44da3f6" shortcut="ftd" description="Fixture Tear Down" text="[TestFixtureTearDown]&#xD;&#xA;public void FixtureTearDown()&#xD;&#xA;{&#xD;&#xA;   $END$&#xD;&#xA;}" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="TypeMember" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables />
+    <CustomProperties />
+  </Template>
+  <Template uid="69001af4-d72a-43c2-bc2d-3d26de57b9d4" shortcut="moq" description="Create a new Moq mock" text="var $NAME$ = new Mock&lt;$TYPE$&gt;();" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Statement" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="TYPE" expression="guessExpectedType()" initialRange="0" />
+      <Variable name="NAME" expression="suggestVariableName()" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="048173ae-b526-46ac-bb0c-1818a9e681f9" shortcut="p" description="public" text="public" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="TypeMember, TypeAndNamespace" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables />
+    <CustomProperties />
+  </Template>
+  <Template uid="b6926f8d-953e-4b79-a3bb-6dec8b42cafe" shortcut="ps" description="public string" text="public string $VARIABLE_NAME$;$END$" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="TypeMember" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="VARIABLE_NAME" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="2d480da0-1c82-4ccd-a86b-b064787dd0d8" shortcut="pv" description="public void Method" text="public void $METHOD_NAME$()&#xD;&#xA;{&#xD;&#xA;  $END$&#xD;&#xA;}" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="TypeMember" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="METHOD_NAME" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="73c1d1ab-6ea7-4955-9bc7-2bb163034de7" shortcut="rk" description="Console.ReadLine()" text="Console.ReadKey();$END$" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Expression" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables />
+    <CustomProperties />
+  </Template>
+  <Template uid="f580d2ae-ff25-49ff-b5e8-6c2f5fe5ee99" shortcut="sac" description="MbUnit StringAssert.Contains" text="StringAssert.Contains($EXPECTED$, $ACTUAL$);$END$" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Expression" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="EXPECTED" expression="" initialRange="0" />
+      <Variable name="ACTUAL" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="908b39da-7edc-4fe0-8e5b-80910f94aaeb" shortcut="su" description="SetUp" text="[SetUp]&#xD;&#xA;public void SetUp()&#xD;&#xA;{&#xD;&#xA;   $END$&#xD;&#xA;}" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="TypeMember" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables />
+    <CustomProperties />
+  </Template>
+  <Template uid="b9b31442-aefa-4164-a59e-7850e12c88c9" shortcut="sua" description="Setup Attribute" text="[SetUp]" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="TypeMember" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables />
+    <CustomProperties />
+  </Template>
+  <Template uid="494c02d5-b4f8-429a-b190-19df41e1bf00" shortcut="t" description="Test method" text="[Test]&#xD;&#xA;public void $MethodUnderTest$_$Scenario$_$Behavior$()&#xD;&#xA;{&#xD;&#xA;	$END$&#xD;&#xA;}" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="TypeMember" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="MethodUnderTest" expression="" initialRange="0" />
+      <Variable name="Scenario" expression="" initialRange="0" />
+      <Variable name="Behavior" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="9d392409-f931-4d71-95a5-934ce17ed344" shortcut="ta" description="Test Attribute" text="[Test]" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="TypeMember" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables />
+    <CustomProperties />
+  </Template>
+  <Template uid="321ceb80-808b-4078-924f-30a79652ab5d" shortcut="td" description="TearDown" text="[TearDown]&#xD;&#xA;public void TearDown()&#xD;&#xA;{&#xD;&#xA;  $END$&#xD;&#xA;}" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="TypeMember" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables />
+    <CustomProperties />
+  </Template>
+  <Template uid="f77a7378-f20d-44f0-9a35-8b27ba13bde6" shortcut="tda" description="TearDown Attribute" text="[TearDown]" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="TypeMember" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables />
+    <CustomProperties />
+  </Template>
+  <Template uid="f0c2cf1b-61c3-40ca-9b95-1ad3726efe43" shortcut="tee" description="Test method stub with an ExpectedException attribute" text="[Test]&#xD;&#xA;[ExpectedException(typeof($EXCEPTION_TYPE$))]&#xD;&#xA;public void $MethodUnderTest$_$Scenario$_$Behavior$()&#xD;&#xA;{&#xD;&#xA;	$END$&#xD;&#xA;}" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="TypeMember" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="EXCEPTION_TYPE" expression="" initialRange="0" />
+      <Variable name="MethodUnderTest" expression="" initialRange="0" />
+      <Variable name="Scenario" expression="" initialRange="0" />
+      <Variable name="Behavior" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="1d8c5774-a5ae-4c94-9206-8a3a40fd70f4" shortcut="tf" description="TestFixture" text="[TestFixture]" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Everywhere" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables />
+    <CustomProperties />
+  </Template>
+  <Template uid="9c7595e1-eec3-4527-8cff-7d9e0222d0f0" shortcut="tfsa" description="Fixture Setup Attribute" text="[TestFixtureSetUp]" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="TypeMember" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables />
+    <CustomProperties />
+  </Template>
+  <Template uid="5260b4d2-bea2-4e9a-b07e-4d073209a314" shortcut="tftda" description="FixtureTearDown Attribute" text="[TestFixtureTearDown]" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="TypeMember" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables />
+    <CustomProperties />
+  </Template>
+  <Template uid="90dea78f-7524-466a-b3ea-34d81b8d31fc" shortcut="v" description="private" text="private $TYPE$ $NAME$;$END$" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="TypeMember" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="TYPE" expression="" initialRange="0" />
+      <Variable name="NAME" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="1e1bfe4e-a3bb-4483-a0bd-a4a8d24d5764" shortcut="vprop" description="Virtual Property" text="public virtual $TYPE$ $NAME$ { get; set; }" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="TypeMember" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="TYPE" expression="" initialRange="0" />
+      <Variable name="NAME" expression="suggestVariableName()" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="4a58bdbc-1853-42de-8824-35bd11354874" shortcut="vs" description="private string" text="private string $VARIABLE_NAME$;$END$" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="TypeMember" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables>
+      <Variable name="VARIABLE_NAME" expression="" initialRange="0" />
+    </Variables>
+    <CustomProperties />
+  </Template>
+  <Template uid="331c48e8-6c2d-493f-bd4c-b5caeec7f3c0" shortcut="wr" description="Console.WriteLine()" text="Console.WriteLine($END$);" reformat="True" shortenQualifiedReferences="True">
+    <Context>
+      <CSharpContext context="Expression" minimumLanguageVersion="2.0" />
+    </Context>
+    <Categories />
+    <Variables />
+    <CustomProperties />
+  </Template>
+</TemplatesExport>
