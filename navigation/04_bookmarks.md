@@ -1,4 +1,5 @@
 !SLIDE bullets
+
 # Navigation: bookmarks #
 
 * _Ctrl+`_ View bookmarks
